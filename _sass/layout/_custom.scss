@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Site-specific additions (imported last in assets/css/main.scss)
+   ========================================================================== */
+
+/* "What I do" cards on the About page (feature_row include)
+   One column on phones and narrow windows, three columns on wide screens. */
+
+.feature__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  padding-bottom: 2em;
+
+  &::after {
+    content: none; /* the theme's clearfix would otherwise become an empty grid cell */
+  }
+
+  @include breakpoint($x-large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .feature__item {
+    width: auto;
+    float: none;
+    clear: none;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .archive__item {
+    height: 100%;
+    padding: 1em 1.1em;
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+  }
+
+  .archive__item-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    > p:last-child {
+      margin-top: auto;
+      margin-bottom: 0;
+    }
+  }
+
+  .archive__item-title {
+    margin: 0 0 0.5em;
+    font-size: 1.05em;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+  }
+
+  .archive__item-excerpt {
+    font-size: 0.85em;
+  }
+
+  .btn {
+    font-size: 0.8em;
+  }
+}

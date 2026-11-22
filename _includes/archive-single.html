@@ -14,6 +14,14 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% comment %} Publications list: structure image beside the entry (header.teaser in the paper's front matter) {% endcomment %}
+    {% assign pub_image = false %}
+    {% if include.type != "grid" and post.collection == 'publications' and post.header.teaser %}{% assign pub_image = true %}{% endif %}
+    {% if pub_image %}
+    <div class="pub-item">
+      <a class="pub-item__structure{% if post.header.teaser_wide %} pub-item__structure--wide{% endif %}" href="{{ base_path }}{{ post.url }}"><img src="{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}" alt="{{ post.header.teaser_alt }}" loading="lazy"></a>
+      <div class="pub-item__text">
+    {% endif %}
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -57,7 +65,11 @@
         paperurl=post.paperurl
         slidesurl=post.slidesurl
         bibtexurl=post.bibtexurl
-    %}    
+    %}
 
+    {% if pub_image %}
+      </div>
+    </div>
+    {% endif %}
   </article>
 </div>

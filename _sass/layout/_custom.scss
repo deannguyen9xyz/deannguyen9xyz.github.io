@@ -116,3 +116,67 @@
 .project-card--text {
   align-self: start; /* text-only cards keep their own height */
 }
+
+/* Publications: structure of each paper's target molecule beside the entry
+   (images in /images/publications/, set as header.teaser in _publications/) */
+
+.pub-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+
+  @include breakpoint($small) {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1em;
+  }
+}
+
+.pub-item__structure,
+.pub-structure {
+  display: block;
+  background: #fff; /* drawings have white backgrounds, also in dark mode */
+  border: 1px solid var(--global-border-color);
+  border-radius: 6px;
+}
+
+.pub-item__structure {
+  flex: 0 0 auto;
+  width: 60%;
+  max-width: 220px;
+
+  @include breakpoint($small) {
+    width: 140px;
+  }
+
+  &--wide {
+    width: 100%;
+    max-width: 360px;
+
+    @include breakpoint($small) {
+      width: 220px;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.pub-item__text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pub-structure {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin-bottom: 1em;
+
+  &--wide {
+    max-width: 560px;
+  }
+}

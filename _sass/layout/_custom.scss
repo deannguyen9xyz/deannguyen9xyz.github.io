@@ -112,3 +112,7 @@
   line-height: 1.3;
   overflow-wrap: anywhere; /* long repository names */
 }
+
+.project-card--text {
+  align-self: start; /* text-only cards keep their own height */
+}

@@ -80,6 +80,7 @@
       alt: "Current profile, battery voltage and state-of-charge estimates from the extended Kalman filter and Coulomb counting"
       description: "Extended Kalman filter for Li-ion state-of-charge estimation with a 1RC equivalent-circuit model under a dynamic current profile."
     - name: "battery-hybrid-digital-twin"
+      hidden: true  # not shown on the site until the model is fixed
       url: "https://github.com/deannguyen9xyz/battery-hybrid-digital-twin"
       description: "Hybrid Li-ion battery model combining a physics-based voltage model with a machine-learning residual corrector for aging-induced drift."
     - name: "Li-ion-RUL-Prediction"

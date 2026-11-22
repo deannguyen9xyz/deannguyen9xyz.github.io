@@ -11,6 +11,7 @@ Small open-source projects, mostly in Python, on electrochemical simulation, dat
 
 <div class="project-grid">
 {%- for p in group.items %}
+{%- if p.hidden %}{% continue %}{% endif %}
 <div class="project-card{% unless p.image %} project-card--text{% endunless %}">
 {%- if p.image %}
 <a class="project-card__image" href="{{ p.url }}"><img src="{{ '/images/projects/' | append: p.image | relative_url }}" alt="{{ p.alt }}" loading="lazy" width="960" height="600"></a>

@@ -180,3 +180,13 @@
     max-width: 560px;
   }
 }
+
+.pub-item__text {
+  .archive__item-title {
+    margin-top: 0;
+  }
+
+  .archive__item-excerpt {
+    font-size: 0.9em; /* plain-language summary, readable next to the citation */
+  }
+}

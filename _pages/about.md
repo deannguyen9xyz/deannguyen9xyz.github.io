@@ -41,6 +41,6 @@ My current project develops MIP receptors on electrochemical and quartz crystal 
 
 ## Background
 
-I received my PhD in Chemical Engineering from Tallinn University of Technology, Estonia, in 2025. My thesis developed MIP-based electrochemical sensors for pollutants in water: macrolide antibiotics, ampicillin and the fungicide azoxystrobin.
+I received my PhD in Chemical Engineering from Tallinn University of Technology, Estonia, in 2025. My [thesis](https://doi.org/10.23658/taltech.64/2025) developed MIP-based electrochemical sensors for pollutants in water: macrolide antibiotics, ampicillin and the fungicide azoxystrobin.
 
 Before moving into research, I worked from 2014 to 2019 as an application engineer in clinical laboratory diagnostics in Vietnam, supporting automated biochemistry, immunoassay, HPLC and microbiology systems in hospital laboratories.

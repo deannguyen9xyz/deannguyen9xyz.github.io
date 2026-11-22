@@ -12,7 +12,7 @@ redirect_from:
 ## Education
 
 * **PhD in Chemical Engineering**, Tallinn University of Technology, Estonia, 2021–2025
-  * Thesis: *Molecularly Imprinted Polymer-based Electrochemical Sensor for Detection of Environmental Pollutants in Aqueous Media*
+  * Thesis: [*Molecularly Imprinted Polymer-modified Electrodes for Electrochemical Sensing of Emerging Aqueous Pollutants*](https://doi.org/10.23658/taltech.64/2025) (TalTech doctoral thesis 64/2025, defended 12 September 2025)
 * **MSc in Materials Science** (cum laude), University of Tartu and Tallinn University of Technology, Estonia, 2019–2021
 * **BSc in Biomedical Engineering**, Ho Chi Minh City University of Technology, Vietnam, 2009–2014
 

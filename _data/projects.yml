@@ -1,15 +1,31 @@
 # Projects page content, grouped by section (rendered by _pages/projects.md).
 # image: file name in /images/projects/ (leave out for a text-only card).
 
-- category: "Local AI for lab data"
+- category: "MIPs, materials and molecular modelling"
   items:
-    - name: "offline-lab-assistant"
-      url: "https://github.com/deannguyen9xyz/offline-lab-assistant"
-      image: "offline-lab-assistant.jpg"
-      alt: "Lina, an illustrated analytical chemist in a lab coat holding a pipette"
-      description: "An offline AI lab assistant: Lina, a local language model in LM Studio, calls a tested Python tool through MCP to check calibration linearity and calculate LOD/LOQ, so research data never leave the computer."
+    - name: "SEM-BSE-image-analysis-MIP-RuO2"
+      url: "https://github.com/deannguyen9xyz/SEM-BSE-image-analysis-MIP-RuO2"
+      description: "Corrects backscattered-electron SEM images for emission-current differences between sessions and compares bare and MIP-modified RuO₂ screen-printed electrodes."
+    - name: "Python-Molecular-Docking"
+      url: "https://github.com/deannguyen9xyz/Python-Molecular-Docking"
+      image: "Python-Molecular-Docking.png"
+      alt: "Docked ligand in the binding pocket of trypsin"
+      description: "Docking workflow following the RCSB PDB-101 Python training: ligand preparation with Meeko, docking with AutoDock Vina and interaction fingerprints with ProLIF."
+    - name: "dsdna-iqs-docking-pipeline"
+      url: "https://github.com/deannguyen9xyz/dsdna-iqs-docking-pipeline"
+      image: "dsdna-iqs-docking-pipeline.png"
+      alt: "IQS docked in the groove of a DNA duplex, next to the screening funnel from 10,000 sequences down to 20 candidates"
+      description: "Virtual screening of 10,000 random dsDNA sequences down to 20 candidates for binding IQS, a Pseudomonas aeruginosa quorum sensing signal: sequence filters, nearest-neighbour duplex thermodynamics and AutoDock Vina docking, with a script that re-derives every result from the raw files."
+    - name: "dsDNA-PQS-docking"
+      url: "https://github.com/deannguyen9xyz/dsDNA-PQS-docking"
+      image: "dsDNA-PQS-docking.png"
+      alt: "PQS docked in the groove of a DNA duplex, beside mean binding affinities for 15 candidate sequences shown with error bars"
+      description: "Docking workflow for selecting dsDNA sequences as recognition elements for PQS: 31 candidates screened to 15 on length and GC content, then five independent AutoDock Vina runs each, with the four taken forward for synthesis chosen on consistency across replicates rather than on a single best score."
+    - name: "MIP-eQCM-Theory-Handbook"
+      url: "https://github.com/deannguyen9xyz/MIP-eQCM-Theory-Handbook"
+      description: "Theory notes on molecularly imprinted polymers (imprinting approaches, computational monomer selection, electropolymerization, class-selective MIPs) and on the electrochemical quartz crystal microbalance (working principle and equivalent circuit model)."
 
-- category: "Electrochemical simulation"
+- category: "Electrochemical simulation and data analysis"
   items:
     - name: "CV-simulation"
       url: "https://github.com/deannguyen9xyz/CV-simulation"
@@ -26,9 +42,6 @@
       image: "PINN-diffusion-study.png"
       alt: "Concentration map and concentration profiles predicted by the physics-informed neural network"
       description: "A physics-informed neural network (PyTorch) that solves the diffusion equation for concentration depletion near an electrode, trained on the governing equation and boundary conditions instead of data."
-
-- category: "Electrochemical data analysis"
-  items:
     - name: "CV-anodic-peak-extraction"
       url: "https://github.com/deannguyen9xyz/CV-anodic-peak-extraction"
       image: "CV-anodic-peak-extraction.png"
@@ -66,30 +79,6 @@
       alt: "A raw cyclic voltammogram and ten augmented copies"
       description: "Augmentation methods for cyclic voltammetry data (potential shift, current scaling, baseline drift, peak broadening, warping and noise) to build machine-learning training sets."
 
-- category: "MIPs, materials and molecular modelling"
-  items:
-    - name: "SEM-BSE-image-analysis-MIP-RuO2"
-      url: "https://github.com/deannguyen9xyz/SEM-BSE-image-analysis-MIP-RuO2"
-      description: "Corrects backscattered-electron SEM images for emission-current differences between sessions and compares bare and MIP-modified RuO₂ screen-printed electrodes."
-    - name: "Python-Molecular-Docking"
-      url: "https://github.com/deannguyen9xyz/Python-Molecular-Docking"
-      image: "Python-Molecular-Docking.png"
-      alt: "Docked ligand in the binding pocket of trypsin"
-      description: "Docking workflow following the RCSB PDB-101 Python training: ligand preparation with Meeko, docking with AutoDock Vina and interaction fingerprints with ProLIF."
-    - name: "dsdna-iqs-docking-pipeline"
-      url: "https://github.com/deannguyen9xyz/dsdna-iqs-docking-pipeline"
-      image: "dsdna-iqs-docking-pipeline.png"
-      alt: "IQS docked in the groove of a DNA duplex, next to the screening funnel from 10,000 sequences down to 20 candidates"
-      description: "Virtual screening of 10,000 random dsDNA sequences down to 20 candidates for binding IQS, a Pseudomonas aeruginosa quorum sensing signal: sequence filters, nearest-neighbour duplex thermodynamics and AutoDock Vina docking, with a script that re-derives every result from the raw files."
-    - name: "dsDNA-PQS-docking"
-      url: "https://github.com/deannguyen9xyz/dsDNA-PQS-docking"
-      image: "dsDNA-PQS-docking.png"
-      alt: "PQS docked in the groove of a DNA duplex, beside mean binding affinities for 15 candidate sequences shown with error bars"
-      description: "Docking workflow for selecting dsDNA sequences as recognition elements for PQS: 31 candidates screened to 15 on length and GC content, then five independent AutoDock Vina runs each, with the four taken forward for synthesis chosen on consistency across replicates rather than on a single best score."
-    - name: "MIP-eQCM-Theory-Handbook"
-      url: "https://github.com/deannguyen9xyz/MIP-eQCM-Theory-Handbook"
-      description: "Theory notes on molecularly imprinted polymers (imprinting approaches, computational monomer selection, electropolymerization, class-selective MIPs) and on the electrochemical quartz crystal microbalance (working principle and equivalent circuit model)."
-
 - category: "Batteries and fuel cells"
   items:
     - name: "battery-ekf-soc-estimator"
@@ -111,3 +100,11 @@
       image: "pem-fuel-cell-model.png"
       alt: "Simulated polarization and power density curves of a PEM fuel cell"
       description: "Physics-based PEM fuel cell simulator (Nernst voltage with activation, ohmic and concentration losses) giving polarization and power curves."
+
+- category: "AI and other projects"
+  items:
+    - name: "offline-lab-assistant"
+      url: "https://github.com/deannguyen9xyz/offline-lab-assistant"
+      image: "offline-lab-assistant.jpg"
+      alt: "Lina, an illustrated analytical chemist in a lab coat holding a pipette"
+      description: "An offline AI lab assistant: Lina, a local language model in LM Studio, calls a tested Python tool through MCP to check calibration linearity and calculate LOD/LOQ, so research data never leave the computer."

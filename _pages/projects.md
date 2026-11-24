@@ -4,7 +4,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-Small open-source projects, mostly in Python, on electrochemical simulation, data analysis and modelling. All code is on [GitHub](https://github.com/deannguyen9xyz).
+Small open-source projects, mostly in Python, on electrochemical simulation, data analysis and modelling, plus an offline AI lab assistant. All code is on [GitHub](https://github.com/deannguyen9xyz).
 
 {% for group in site.data.projects %}
 ## {{ group.category }}

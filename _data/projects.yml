@@ -1,6 +1,14 @@
 # Projects page content, grouped by section (rendered by _pages/projects.md).
 # image: file name in /images/projects/ (leave out for a text-only card).
 
+- category: "Local AI for lab data"
+  items:
+    - name: "offline-lab-assistant"
+      url: "https://github.com/deannguyen9xyz/offline-lab-assistant"
+      image: "offline-lab-assistant.jpg"
+      alt: "Lina, an illustrated analytical chemist in a lab coat holding a pipette"
+      description: "An offline AI lab assistant: Lina, a local language model in LM Studio, calls a tested Python tool through MCP to check calibration linearity and calculate LOD/LOQ, so research data never leave the computer."
+
 - category: "Electrochemical simulation"
   items:
     - name: "CV-simulation"

@@ -2,11 +2,11 @@
 # Pages are added here once their content is ready.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "CV"
+    url: /cv/
 
   - title: "Projects"
     url: /projects/
 
-  - title: "CV"
-    url: /cv/
+  - title: "Publications"
+    url: /publications/

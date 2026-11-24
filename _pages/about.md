@@ -23,24 +23,30 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-I am a postdoctoral researcher at the Nalecz Institute of Biocybernetics and Biomedical Engineering, Polish Academy of Sciences (IBIB PAN) in Warsaw. I work on the molecular recognition and electrochemical detection of small bioactive molecules, using molecularly imprinted polymers (MIPs) as synthetic receptors.
+I develop synthetic receptors and electrochemical sensors that detect small bioactive molecules in complex real samples, where the target sits at trace level among many interfering compounds. My tools are molecularly imprinted polymers (MIPs) as synthetic receptors, electrochemical and quartz crystal microbalance (QCM/EQCM) transducers, and computational chemistry.
 
-My current project develops MIP receptors on electrochemical and quartz crystal microbalance (QCM/EQCM) transducers for the quorum-sensing signals and redox-active metabolites of *Pseudomonas aeruginosa*. I combine electropolymerization and film characterization with computational chemistry (DFT, molecular dynamics and molecular docking) to study the monomer–template interactions behind molecular recognition.
+I am currently a postdoctoral researcher at the Nalecz Institute of Biocybernetics and Biomedical Engineering, Polish Academy of Sciences (IBIB PAN) in Warsaw, where this work is applied to the quorum-sensing signals and redox-active metabolites of *Pseudomonas aeruginosa*. I combine electropolymerization and film characterization with DFT, molecular dynamics and molecular docking to understand the monomer–template interactions behind molecular recognition.
+
+The same approach — selective recognition at an electrode surface, validated against real sample matrices — carries over to clinical diagnostics, environmental monitoring and food safety. My doctoral work applied it to antibiotics and a crop fungicide in water.
 
 ## What I do
 
 {% include feature_row %}
 
-## Research interests
+## Areas of work
 
-- Molecularly imprinted polymers as synthetic receptors
-- Electrochemical and QCM/EQCM sensors
-- Electropolymerized thin films: synthesis and characterization
-- Modelling of monomer–template interactions (DFT, QTAIM, molecular dynamics, docking)
-- Python tools for electrochemical data analysis and simulation ([GitHub](https://github.com/deannguyen9xyz))
+- Synthetic receptors for small-molecule recognition (molecularly imprinted polymers)
+- Electrochemical and gravimetric sensing: voltammetry, amperometry, impedance spectroscopy, QCM/EQCM
+- Thin-film synthesis and surface characterization: electropolymerization, UV-Vis, FTIR, SEM
+- Computational screening of molecular interactions: DFT, QTAIM, molecular dynamics, docking
+- Scientific software and data analysis: Python tools for simulation, signal processing and machine learning on sensor data ([GitHub](https://github.com/deannguyen9xyz))
 
 ## Background
 
 I received my PhD in Chemical Engineering from Tallinn University of Technology, Estonia, in 2025. My [thesis](https://doi.org/10.23658/taltech.64/2025) developed MIP-based electrochemical sensors for pollutants in water: macrolide antibiotics, ampicillin and the fungicide azoxystrobin.
 
-Before moving into research, I worked from 2014 to 2019 as an application engineer in clinical laboratory diagnostics in Vietnam, supporting automated biochemistry, immunoassay, HPLC and microbiology systems in hospital laboratories.
+## Clinical diagnostics and quality systems
+
+From 2014 to 2019 I worked in clinical laboratory diagnostics in Vietnam as an application engineer, installing and supporting automated platforms in hospital and clinic laboratories across the centre and south of the country: clinical biochemistry (Beckman Coulter AU/DxC), chemiluminescent immunoassay (Access 2/DxI) including maternal serum screening, boronate-affinity HPLC for HbA1c, and microbial identification and antimicrobial susceptibility testing (MicroScan autoSCAN-4/WalkAway). The role involved training laboratory staff, diagnosing calibration and quality-control failures on instruments in routine diagnostic use, and supporting biosafety practice and ISO 15189 accreditation.
+
+That experience shapes how I approach method development now: what it takes for an analytical method to stay stable, documented and auditable once results are used for decisions, rather than only working once on a bench.

@@ -48,9 +48,8 @@ redirect_from:
 
 ## Publications
 
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+Four peer-reviewed articles, three as first author, and a doctoral thesis. The
+full list with abstracts and DOIs is on the [publications page](/publications/).
 
 ## Peer review and conferences
 
